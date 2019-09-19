@@ -1,0 +1,59 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+    background: #485564;
+    color: #fafafa;
+}
+
+.title {
+    font-family: "Reem Kufi", sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+}
+.message {
+    font-size: 32px;
+    margin: 1.5rem 0;
+    font-weight: 100;
+}
+
+.small {
+    font-size: 28px;
+    margin: 1.5rem 0;
+    font-weight: 100;
+}
+
+/* a {
+    color: #34b9db;
+    text-decoration: none;
+    font-weight: bold;
+} */
+
+.myButton {
+    background-color: #34badb;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #fafafa;
+}
+.myButton:hover {
+    background-color: #ff7f50;
+    animation: heartBeat 1s;
+    animation-iteration-count: infinite;
+}
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
